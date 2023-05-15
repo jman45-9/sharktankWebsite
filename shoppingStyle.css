@@ -1,0 +1,96 @@
+.headerLogo {
+    z-index: 6;
+    position: fixed;
+    top: -20px;
+}
+
+.headerText {
+    z-index: 6;
+    position: fixed;
+    left: 100px;
+    top: 15px;
+    text-align: left;
+}
+
+.headerButtons {
+    z-index: 6;
+    background-color: rgba(255, 247, 173, 1);
+    cursor:pointer;
+    border: none;
+}
+
+.homeBtn {
+    z-index: 6;
+    position: fixed;
+    left: 94%;
+    top: 10px;
+}
+
+.navigationBtn {
+    z-index: 6;
+    position: fixed;
+    left: calc(94% - 75px);
+    top: 10px;
+}
+
+.bigHeaderBox {
+    z-index: 5;
+    height: 75px;
+    width: 5000px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+
+
+.productImg {
+    position: absolute;
+    left: 40%;
+    top: 125px;
+}
+
+#productDescription {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 330px;
+    width: 80vw;
+    font-size: 30px;
+    transform: translateX(-50%);
+}
+
+#priceTag {
+    position: absolute;
+    text-align: left;
+    left: 30%;
+    top: 450px;
+    font-size: 25px;
+}
+
+.button {
+    background-color: NavajoWhite;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    width: 150px;
+}
+
+.buyBtn {
+    position: absolute;
+    left: calc(30% + 170px);
+    top: 470px;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+} 
+
+body {
+    background-image: url("assets/blueBackground.png");
+    font-family: "Open Sans", Sans-serif;
+}

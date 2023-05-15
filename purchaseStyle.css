@@ -1,0 +1,76 @@
+.productImg {
+    position: absolute;
+    left:30%;
+    top: 25px;
+    border: solid 10px black;
+}
+
+#quantityLabel {
+    font-size: 30px;
+    position: absolute;
+    left: 30%;
+    top: 350px;
+}
+
+#quantityCounter {
+    padding: 5px;
+    width: 10px;
+    border: solid 5px black;
+    position: absolute;
+    font-size: 20px;
+    left: calc(30% + 75px);
+    top: 415px;
+   
+}
+
+.button {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: NavajoWhite;
+    cursor: pointer;
+}
+
+#decreaseBtn {
+    position: absolute;
+    top: 435px;
+    left: calc(30% + 15px);
+}
+
+#increaseBtn {
+    position: absolute;
+    top: 435px;
+    left: calc(30% + 135px)
+}
+
+#reciptBtn {
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    left: 30%;
+    background-color: NavajoWhite;
+    cursor: pointer;
+}
+
+#homeBtn {
+    background-color: NavajoWhite;
+    cursor: pointer;
+}
+
+#priceTitle {
+    font-size: 30px;
+}
+
+.priceInfo {
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+} 
+
+body {
+    background-image: url("assets/blueBackground.png");
+    font-family: "Open Sans", Sans-serif;
+}

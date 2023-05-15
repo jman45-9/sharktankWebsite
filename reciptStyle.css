@@ -1,0 +1,29 @@
+#thankYou {
+    text-align: center;
+    left: 50%;
+    font-size: 60px;
+}
+
+.priceInfo {
+    text-align: center;
+    left: 50%;
+    top: 80px;
+    font-size: 40px;
+}
+
+#homeBtn {
+    background-color: navajowhite;
+    position: absolute;
+    left: calc(50% - 50px);
+    top: 500px;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+} 
+
+body {
+    background-image: url("assets/blueBackground.png");
+    font-family: "Open Sans", Sans-serif;
+}

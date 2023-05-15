@@ -1,0 +1,82 @@
+.headerLogo {
+    z-index: 6;
+    position: fixed;
+    top: -20px;
+}
+
+.headerText {
+    z-index: 6;
+    position: fixed;
+    left: 100px;
+    top: 15px;
+    text-align: left;
+}
+
+.headerButtons {
+    z-index: 6;
+    background-color: rgba(255, 247, 173, 1);
+    cursor:pointer;
+    border: none;
+}
+
+.homeBtn {
+    z-index: 6;
+    position: fixed;
+    left: 94%;
+    top: 10px;
+}
+
+.navigationBtn {
+    z-index: 6;
+    position: fixed;
+    left: calc(94% - 75px);
+    top: 10px;
+}
+
+.bigHeaderBox {
+    z-index: 5;
+    height: 75px;
+    width: 5000px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+    
+}
+
+#flyerTitle {
+    position: absolute;
+    top: 90px;
+    left: 25px;
+}
+
+.flyerImg {
+    border: 10px solid #7a797a;
+    position: absolute;
+    top: 175px;
+    left: 40px;
+}
+
+#instaTitle {
+    position: absolute;
+    top: 90px;
+    left: 500px;
+}
+
+.instaImg {
+    border: 10px solid #7a797a;
+    position: absolute;
+    top: 175px;
+    left: 515px;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+} 
+
+body {
+    background-image: url("assets/blueBackground.png");
+    font-family: "Open Sans", Sans-serif;
+}
